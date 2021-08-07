@@ -6,9 +6,14 @@ using namespace std;
 
 int main(){
 
-    float raio;
-    float resultado;
+    double raio;
+    double resultado;
 
-    
+    cin >> raio;
+
+    resultado = (4.0/3) * 3.14159 * pow(raio,3);
+
+    cout << fixed << setprecision(3);
+    cout << "VOLUME = " << resultado << endl;
 
 }
