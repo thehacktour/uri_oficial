@@ -13,7 +13,7 @@ int main(){
 
     cout << x << endl;
 
-    for (int i=0; i < 7; i++){
+    for (int i=0; i < 7; i++){1
 
         resultado = x/foo[i];
         x = x % foo[i];
